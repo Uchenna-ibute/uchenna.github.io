@@ -1,0 +1,39 @@
+body {
+    background-image: url(poor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 747px) {
+    body {
+        background-size: auto 100%;
+    }
+}
+header {
+    text-align: center;
+    padding: 200px;
+    padding-bottom: 150px;
+}
+h1 {
+    color: rgb(194, 193, 201);
+    text-shadow: 4px 2px rgba(7, 17, 29, 0.45);
+    display: block;
+    word-spacing: 16px;
+    border-radius: 10px 20px;
+}
+.clear {
+    width: 100%;
+    text-align: center;
+    padding: 10px 30px;
+    margin-left: auto;
+}
+input[type=submit] {
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 150%;
+    background-color: red;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: red;
+}
